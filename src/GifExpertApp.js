@@ -2,8 +2,8 @@ import React, { Fragment, useState } from 'react'
 import { AddCategory } from './components/AddCategory';
 import { GifGrid } from './components/GifGrid';
 
-export const GifExpertApp = () => {
-    const [categories, setCategories] = useState([]);
+export const GifExpertApp = ({categoriesDefault = []}) => {
+    const [categories, setCategories] = useState(categoriesDefault);
 
     return (
         <Fragment>

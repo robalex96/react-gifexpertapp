@@ -23,4 +23,4 @@ export const GifGrid = ({category}) => {
             </div>
         </Fragment>
     )
-}
+};
